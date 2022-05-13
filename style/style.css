@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.fix-size {
+    background-color: #E0E7CE;
+    padding: 15px 20px;
+    width: 1060px;
+    margin: 0 auto;
+}
+
+.fix-size:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.card {
+    width: 189px;
+    height: 156px;
+    background-color: #F09B9B;
+    display: inline-block;
+
+}
+
+.left {
+    float: left;
+}
+
+.left:not(:first-child) {
+    margin-left: 15px;
+}
+
+.right {
+    float: right;
+}
+
+.right:not(:last-child) {
+    margin-left: 15px;
+}
+
+.cards-container {
+    width: 393px;
+    margin: 0 auto;
+}
+
+.half-card-container{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.half-card {
+    width: 189px;
+    height: 70px;
+    background-color: #F09B9B;
+}
+
+.half-card:not(:last-child) {
+    margin-bottom: 16px;
+}
